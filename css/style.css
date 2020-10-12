@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:white;
+}
+
+
+#name {
+    color:black;
+    font-size: 100%;
+    text-align: center;
+    margin-top:0;
+    font-family: 'Syncopate', sans-serif;
+    width:100%;
+    padding-bottom:1em
+}
+
+#mypic img {
+    width:35%;
+    margin-top:0.75em;
+    margin-bottom:0.75em;
+    border-radius: 50%;
+}
+
+#name h1 {
+    padding-top:1em;
+    margin-bottom: 2px;
+    margin-top:0;
+}
+
+#name h2 {
+    font-family: 'Commissioner', sans-serif;
+    color:black;
+    margin-top: 2px;
+    margin-bottom:0;
+}
+
+#projects {
+    padding:0.5em;
+    color:white;
+}
+
+h4 {
+    color:black;
+    font-family: 'Peddana', serif;
+    font-size: 2em;
+}
+
+p {
+}
+
+#about {
+    padding:0.5em;
+}
+
+hr {
+    color: black;
+    margin:0;
+    width:40%;
+    margin-left:auto;
+    margin-right:auto;
+    opacity: 0.4;
+}
