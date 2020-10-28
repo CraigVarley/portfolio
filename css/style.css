@@ -22,24 +22,10 @@ body {
     height:100vh;
 }
 
-#favicontext2 {
-    display:none;
-}
-
-#projecttitle {
-    display:none;
-}
-
-#projectnametablet {
-    font-size:1.5em;
-    margin:0;
-    font-family:'PT Sans Narrow', sans-serif;
-    color:#2e2e2e;
-    font-weight: 100;
-}
 
 a {
     text-decoration: none;
+    color:black;
 }
 
 a:visited {
@@ -107,6 +93,10 @@ a:visited {
     font-size: 1.6em;
     font-weight: 300;
     margin:0.25em;
+}
+
+#favicontext2 {
+    display:none;
 }
 
 
@@ -185,6 +175,18 @@ a:visited {
     height:auto;
 }
 
+#projecttitle {
+    display:none;
+}
+
+#projectnametablet {
+    font-size:1.5em;
+    margin:0;
+    font-family:'PT Sans Narrow', sans-serif;
+    color:#2e2e2e;
+    font-weight: 100;
+}
+
 .project p,
 .project a:visited {
     color:black;
@@ -243,6 +245,11 @@ a:visited {
     text-align: left;
     padding-left: 10px;
     border-left:15px #424d4d solid;
+}
+
+.projecteg:hover {
+    background-color: #CA857F;
+    background-image: url('../images/beige-paper.png');
 }
 
 
@@ -686,10 +693,6 @@ footer p {
     transition: background-color 200ms linear;
 }
 
-.projecteg:hover {
-    background-color: #CA857F;
-    background-image: url('../images/beige-paper.png');
-}
 
 .projectname {
     flex-basis: 46%;
