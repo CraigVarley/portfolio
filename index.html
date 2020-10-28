@@ -3,59 +3,218 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
-    <title>Craig Varley</title>
     <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Commissioner&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Peddana&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet">
+    <title>Craig Varley</title>
+
 </head>
 <body>
-    <div id="name">
-        <h1>CRAIG VARLEY</h1>
-        <div id="mypic">
-            <img src="images/me.jpg" alt="picture of Craig Varley">
+    <div id="container">
+
+        <div id="favicon" class="square">
+            <div class="content">
+                <div id="faviconimg">
+                    <img src="favicons/apple-touch-icon.png" id="cvimg">
+                        <nav id="navleft">
+                            <a href="#"><li>Top</li></a>
+                            <a href="#projects"><li>Projects</li></a>
+                        </nav>
+                        <nav id="navright">
+                            <a href="#about"><li>About</li></a>
+                            <a href="#contact"><li>Contact</li></a>
+                        </nav>
+                </div>
+            </div>
+            <div id="favicontext">
+                <h2>INTERACTIVE + RESPONSIVE</h2>
+                <h2>WEB DESIGN</h2>
+            </div>
+            <div id="favicontext2">
+                <h2>INTERACTIVE + RESPONSIVE WEB DESIGN</h2>
+            </div>
         </div>
-        <h2>Web Designer</h2>
+
+        <div id="intro" class="square">
+            <div class="content">
+                <div id="introtext">
+                    <p>I'm Craig Varley. Welcome to my portfolio.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="projecttitle"><h3>PROJECTS</h3></div>
+
+        <div id="projects" class="square">
+            <div class="content">
+                <h2>PROJECTS</h3>
+                    <div id="hammersvg">
+                        <a href="#"></a><img id ="hammer" src="images/hammer.svg" alt="hammer icon"></a>
+                    </div>
+            </div>
+            <!-- Short div for small tablets -->
+            <div id="projectnametablet">
+                <div class="projectname">
+                    <a href="https://craigvarley.github.io/photo_gallery_v5/">
+                        <h3>PHOTO GALLERY</h3>
+                    </a>
+                </div>
+                <div class="projectname">
+                    <a href="https://craigvarley.github.io/employee_directory_v1/">
+                        <h3>EMPLOYEE DIRECTORY</h3>
+                    </a>
+                </div>
+                <div class="projectname">
+                    <a href="https://craigvarley.github.io/web_app_dashboard_v3.1-/">
+                        <h3>DASHBOARD</h3>
+                    </a>
+                </div>
+                <div class="projectname">
+                    <a href="https://craigvarley.github.io/game_show_app_v1.2/"></a>
+                        <h3>QUIZ GAME</h3>
+                    </a>
+                </div>
+                <div class="projectname">
+                    <a href="https://craigvarley.github.io/online_registration_v4/"></a>
+                        <h3>REGISTRATION FORM</h3>
+                </div>
+            </div>
+            <!-- Longer div for big tablets and up -->
+            <div id="projecticons">
+                <div class="projecteg">
+                    <div class="projectname">
+                        <a href="https://craigvarley.github.io/photo_gallery_v5/">
+                            <h3>PHOTO GALLERY</h3>
+                        </a>
+                    </div>
+                    <div class="projecttext">
+                        <p>Photo grid searchable by alt text</p>
+                    </div>
+                </div>
+                <div class="projecteg">
+                    <div class="projectname">
+                        <a href="https://craigvarley.github.io/employee_directory_v1/">
+                            <h3>EMPLOYEE DIRECTORY</h3>
+                        </a>
+                    </div>
+                    <div class="projecttext">
+                        <p>Searchable API grid</p>
+                    </div>
+                </div>
+                <div class="projecteg">
+                    <div class="projectname">
+                        <a href="https://craigvarley.github.io/web_app_dashboard_v3.1-/">
+                            <h3>DASHBOARD</h3>
+                        </a>
+                    </div>
+                    <div class="projecttext">
+                        <p>Sample web dashboard using chart.js</p>
+                    </div>
+                </div>
+                <div class="projecteg">
+                    <div class="projectname">
+                        <a href="https://craigvarley.github.io/game_show_app_v1.2/">
+                            <h3>QUIZ GAME</h3>
+                        </a>
+                    </div>
+                    <div class="projecttext">
+                        <p>Interactive web quiz</p>
+                    </div>
+                </div>
+                <div class="projecteg">
+                    <div class="projectname">
+                        <a href="https://craigvarley.github.io/wiki/">
+                            <h3>FEC API</h3>
+                        </a>
+                    </div>
+                    <div class="projecttext">
+                        <p>API-based candidate funding search</p>
+                    </div>
+                </div>
+                <div class="projecteg">
+                    <div class="projectname">
+                        <a href="https://craigvarley.github.io/online_registration_v4/">
+                            <h3>REGISTRATION FORM</h3>
+                        </a>
+                    </div>
+                    <div class="projecttext">
+                        <p>Responsive, registration form</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+
+        <div id="about" class="square">
+            <div class="content">
+                <div id="aboutpic">
+                    <a href="about.html"><img id ="magnify" src="images/magnify.png" alt="magnifying glass"></a>
+                </div>
+                <div id="abouttext">
+                    <h2>ABOUT ME</h2>
+                </div>
+            </div>
+            <div id="abouttextmain">
+                <p>
+                    I'm a user-focused web developer. I recently completed the Treehouse Front End Web Development techdegree and am furthering my knowledge of Javascript to make myself a 
+                    strong developer. I particularly enjoy using JS to gather and sift data (see my <a href="https://craigvarley.github.io/wiki/">FEC API page</a>).</p>
+                <p>I've worked in libraries for ten years and was the director of a public library in Vermont for five, where I managed the collection, staff, grants and budget. I also love comics and I <a href="https://www.mcsweeneys.net/articles/a-solid-flu-vaccine-a-scientist-looks-back-on-the-day-trump-came-up-with-a-cure-for-the-coronavirus">write</a>.
+                </p>
+            </div>
+        </div>
+
+        
+        <div id="contact" class="square">
+            <div class="content">
+                <div id="contactpic">
+                    <a href="contact.html">
+                        <img id="contactimg" src="images/contact-tp2.png" alt="phone icon">
+                    </a>
+                </div>
+                <div id="contacttext">
+                    <p>Get in touch.</p>
+                </div>
+            </div>
+            <div id="contactsocial">
+                <div class="socialicons">
+                    <a href="#"><img src="images/twitter.svg"></a>
+                </div>
+                <div class="socialicons">
+                    <a href="#"><img src="images/github.svg"></a>
+                </div>
+                <div class="socialicons">
+                    <a href="#"><img src="images/linkedin.svg"></a>
+                </div>
+                <div class="socialicons">
+                    <a href="#"><img src="images/email.svg"></a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; CRAIG VARLEY 2020</p>
+        </footer>
+
+        <div id="color1"></div>
+        <div id="color2">
+            <div id="hammersvghide">
+                <div id="hammersvghidetext">
+                    <h2>PROJECTS</h2>
+                </div>
+            </div>
+        </div>
+        <div id="color3"></div>
+        <div id="color4"></div>
+
     </div>
-
-    <hr>
-
-    <div id="projects">
-        <div class="project">
-            <h4>Dashboard</h4>
-            <a href="https://craigvarley.github.io/web_app_dashboard_v3.1-/"><img alt="dashboard graph page" src="#"></a>
-            <p>Some text here</p>
-        </div>
-        <div class="project">
-            <h4>Interactive Quiz</h4>
-            <a href="#"><img alt="searchable api page" src="#"></a>
-            <p>Some text here</p>
-        </div>
-        <div class="project">
-            <h4>FEC API data</h4>
-            <a href="#"><img alt="FEC API data page" src="#"></a>
-            <p>Some text here</p>
-        </div>
-        <div class="project">
-            <h4>Searchable Employee Directory</h4>
-            <a href="https://craigvarley.github.io/employee_directory_v1/"><img alt="interactive quiz page" src="#"></a>
-            <p>Some text here</p>
-        </div>
-    </div>
-
-    <hr>
-
-    <div id="about">
-        <p>Some text here.</p>
-    </div>
-
-    <hr>
-    
-    <div id="contact">
-        <p>Some text here.</p>
-    </div>
-    
-    <script type="text/javascript" href="app.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
