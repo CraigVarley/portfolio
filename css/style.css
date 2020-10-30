@@ -274,14 +274,14 @@ a:visited {
     padding-bottom: 5px;
 }
 
-/* .projectpic a img {
-    margin-bottom:10px;
-    transition:box-shadow linear 100ms;
+.projecte {
+    transition:background-color 100ms linear;
 }
 
-.projectpic a img:hover {
-    box-shadow:0px 3px 5px 6px #ccc;
-} */
+.projecteg:hover {
+    background-color:#d88983;
+    background-image: url('../images/beige-paper.png');
+}   
 
 .projectpic img {
     width:200px;
